@@ -1,3 +1,19 @@
 main:
+  - title: "Get Started"
+    url: /guide/get-started/
+  - title: "Donate"
+    url: https://www.paypal.me/emiyl
   - title: "Home"
     url: https://cfw.guide/
+
+side:
+  - title: Guide
+    children:
+      - title: "Get Started"
+        url: /guide/get-started/
+      - title: "Updating to 3.0.0"
+        url: /guide/updating-to-3.0.0/
+      - title: "Homebrew Launcher"
+        url: /guide/homebrew-launcher/
+      - title: "Blocking Updates"
+        url: /guide/blocking-updates/

@@ -1,0 +1,342 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.9.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Homebrew Launcher - Switch Guide</title>
+<meta name="description" content="Blocking Updates">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_UK">
+<meta property="og:site_name" content="Switch Guide">
+<meta property="og:title" content="Homebrew Launcher">
+<meta property="og:url" content="http://localhost:4000/guide/homebrew-launcher/">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/guide/homebrew-launcher/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Emily",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Switch Guide Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+<link rel="stylesheet" href="/assets/css/other.css">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8267943526926430",
+    enable_page_level_ads: true
+  });
+</script>
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="http://localhost:4000/">Switch Guide</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/guide/get-started/" >Get Started</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://www.paypal.me/emiyl" >Donate</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://cfw.guide/" >Home</a>
+            </li>
+          
+        </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Guide</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/get-started/" class="">Get Started</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/updating-to-3.0.0/" class="">Updating to 3.0.0</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/homebrew-launcher/" class="active">Homebrew Launcher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/guide/blocking-updates/" class="">Blocking Updates</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Homebrew Launcher">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Homebrew Launcher
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+		<div class="notice">If you like the guide, please consider donating via <a href="https://www.paypal.me/emiyl" target="_blank">PayPal</a>.</div>
+        <p>The Homebrew Launcher allows you to run unsigned, user-made software on your Nintendo Switch. It currently only runs on version 3.0.0.</p>
+
+<p>Make sure to only download homebrew from trusted sources. Running untrusted homebrew could potentially damage your Switch and void your warranty.</p>
+
+<p>If you’d like to read more on the Homebrew Launcher, go to the offical website <a href="https://switchbrew.github.io/nx-hbl/" target="_blank"> here</a>.</p>
+
+<h2 id="instructions">Instructions</h2>
+
+<ol>
+  <li>Download the latest version of <a href="https://github.com/switchbrew/nx-hbmenu/releases/latest" target="_blank">nx-hbmenu</a></li>
+  <li>Remove your MicroSD Card from your Nintendo Switch and insert your it into your computer</li>
+  <li>Extract the nx-hbmenu <code class="highlighter-rouge">.zip</code> file</li>
+  <li>Place hbmenu.nro onto the root of your MicroSD Card</li>
+  <li>Eject your MicroSD Card from your computer and put it back in your Nintendo Switch</li>
+  <li>Go to the System Settings application</li>
+  <li>Scroll down the menu on the left-hand side and select “Internet”</li>
+  <li>Select “Internet Settings”</li>
+  <li>Select your network</li>
+  <li>Scroll down to “DNS Settings”</li>
+  <li>Set your DNS Settings to “Manual”</li>
+  <li>Set your “Primary DNS” to <code class="highlighter-rouge">104.236.106.125</code></li>
+  <li>Perform a connection test</li>
+  <li>Click “Install”
+    <ul>
+      <li>If you see “2000-1337” on your screen, the Homebrew Launcher installation has succeeded.</li>
+      <li>If you do not, retry from the beginning of this page</li>
+    </ul>
+  </li>
+  <li>Restart the device</li>
+  <li>Go to the System Settings application</li>
+  <li>Scroll down the menu on the left-hand side and select “Internet”</li>
+  <li>Select “Test Connection”</li>
+  <li>Click “Run”</li>
+  <li>Exit when prompted</li>
+  <li>Go to the Home Menu</li>
+  <li>Click the Album icon</li>
+</ol>
+
+<h2 id="installing-homebrew-applications">Installing Homebrew Applications</h2>
+
+<ol>
+  <li>Make a new directory on the root of your Switch’s MicroSD Card called <code class="highlighter-rouge">switch/</code></li>
+  <li>Download a homebrew application of your choice from <a href="http://switchbrew.org/index.php?title=Homebrew_Applications" target="_blank">here</a></li>
+  <li>Extract an archive file if it comes with one</li>
+  <li>Find the <code class="highlighter-rouge">.nro</code> file and place it into the <code class="highlighter-rouge">switch/</code> directory on your MicroSD Card</li>
+</ol>
+
+<center><a href="/guide/blocking-updates" style="text-decoration: none;color: #ccc;font-weight:normal;"><button style="vertical-align:middle"><span><font size="+2">Blocking Updates</font></span></button></a></center>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-copyright">&copy; 2018 Emily - Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>

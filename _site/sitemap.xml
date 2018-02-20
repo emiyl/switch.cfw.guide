@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/guide/blocking-updates/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/guide/get-started/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/guide/homebrew-launcher/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/more/pokken-tournament-dx/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/guide/updating-to-3.0.0/</loc>
 </url>
 </urlset>
