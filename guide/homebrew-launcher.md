@@ -45,4 +45,4 @@ If you'd like to read more on the Homebrew Launcher, go to the offical website [
 3. Extract an archive file if it comes with one
 4. Find the `.nro` file and place it into the `switch/` directory on your MicroSD Card
 
-<center><a href="/guide/blocking-updates" style="text-decoration: none;color: #ccc;font-weight:normal;"><button style="vertical-align:middle"><span><font size="+2">Blocking Updates</font></span></button></a></center>
+<center><a href="/guide/blocking-updates"><button class="btn btn--light-outline">Blocking Updates</button></a></center>

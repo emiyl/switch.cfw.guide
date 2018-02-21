@@ -19,4 +19,4 @@ If you are on 1.0.0, waiting might be beneficial. CFW will be released first for
 2. Run the game
 3. Update to 3.0.0 when prompted
 
-<center><a href="/guide/homebrew-launcher" style="text-decoration: none;color: #ccc;font-weight:normal;"><button style="vertical-align:middle"><span><font size="+2">Homebrew Launcher</font></span></button></a></center>
+<center><a href="/guide/homebrew-launcher"><button class="btn btn--light-outline">Homebrew Launcher</button></a></center>

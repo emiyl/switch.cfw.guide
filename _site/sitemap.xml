@@ -4,6 +4,9 @@
 <loc>http://localhost:4000/guide/blocking-updates/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/help/discord/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/guide/get-started/</loc>
 </url>
 <url>
@@ -17,5 +20,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/guide/updating-to-3.0.0/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blocking-updates.html</loc>
+<lastmod>2018-02-20T00:20:17+00:00</lastmod>
 </url>
 </urlset>
