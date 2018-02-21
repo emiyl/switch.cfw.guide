@@ -1,6 +1,4 @@
 main:
-  - title: "Get Started"
-    url: /guide/get-started/
   - title: "Donate"
     url: https://www.paypal.me/emiyl
   - title: "Home"
