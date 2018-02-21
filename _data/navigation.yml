@@ -17,3 +17,7 @@ side:
         url: /guide/homebrew-launcher/
       - title: "Blocking Updates"
         url: /guide/blocking-updates/
+  - title: Help
+    children:
+      - title: "Discord"
+        url: /help/discord/
