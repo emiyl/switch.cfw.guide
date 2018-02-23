@@ -23,6 +23,11 @@ Firstly, you’ll need to find out your Nintendo Switch’s firmware version. Yo
 			</tr>
 			<tr>
 				<td>1.0.0</td>
+				<td>1.0.0</td>
+				<td><a href="/guide/blocking-updates">Blocking Updates</a> (Waiting for CFW)</td>
+			</tr>
+			<tr>
+				<td>2.0.0</td>
 				<td>2.3.0</td>
 				<td><a href="/guide/updating-to-3.0.0">Updating to 3.0.0</a></td>
 			</tr>
@@ -33,6 +38,11 @@ Firstly, you’ll need to find out your Nintendo Switch’s firmware version. Yo
 			</tr>
 			<tr>
 				<td>3.0.1</td>
+				<td>4.0.1</td>
+				<td><a href="/guide/updating-to-4.1.0">Updating to 4.1.0</a></td>
+			</tr>
+			<tr>
+				<td>4.1.0</td>
 				<td>4.1.0</td>
 				<td><a href="/guide/blocking-updates">Blocking Updates</a></td>
 			</tr>

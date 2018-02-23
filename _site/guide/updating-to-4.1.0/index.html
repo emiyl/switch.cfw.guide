@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Homebrew Launcher - Switch Guide</title>
+<!-- begin _includes/seo.html --><title>Updating to 4.1.0 - Switch Guide</title>
 <meta name="description" content="Blocking Updates">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_UK">
 <meta property="og:site_name" content="Switch Guide">
-<meta property="og:title" content="Homebrew Launcher">
-<meta property="og:url" content="http://localhost:4000/guide/homebrew-launcher/">
+<meta property="og:title" content="Updating to 4.1.0">
+<meta property="og:url" content="http://localhost:4000/guide/updating-to-4.1.0/">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/guide/homebrew-launcher/">
+<link rel="canonical" href="http://localhost:4000/guide/updating-to-4.1.0/">
 
 
 
@@ -197,7 +197,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/homebrew-launcher/" class="active">Homebrew Launcher</a></li>
+            <li><a href="http://localhost:4000/guide/homebrew-launcher/" class="">Homebrew Launcher</a></li>
           
             
             
@@ -219,7 +219,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Homebrew Launcher">
+    <meta itemprop="headline" content="Updating to 4.1.0">
     
     
     
@@ -227,7 +227,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Homebrew Launcher
+          <h1 class="page__title" itemprop="headline">Updating to 4.1.0
 </h1>
           
         </header>
@@ -237,81 +237,18 @@
         
 		<p class="notice">If you like the guide, please consider donating via <a href="https://www.paypal.me/emiyl" target="_blank">PayPal</a>.</p>
     <p class="notice">If you have any issues or problems, please ask on our <a href="/help/discord/">Discord Server</a>.</p>
-        <p>The Homebrew Launcher allows you to run unsigned, user-made software on your Nintendo Switch. It currently only runs on version 3.0.0.</p>
-
-<p>Make sure to only download homebrew from trusted sources. Running untrusted homebrew could potentially damage your Switch and void your warranty.</p>
-
-<p>If you’d like to read more on the Homebrew Launcher, go to the offical website <a href="https://switchbrew.github.io/nx-hbl/" target="_blank"> here</a>.</p>
-
-<p>Update blocking will not be necessary after this step, as the Homebrew Launcher DNS automatically blocks updates for you.</p>
+        <p>If you’re on 3.0.1 through to 4.0.1, you’ll get CFW the same time as anyone on 4.1.0, so you can go now and update to 4.1.0. You’ll be able to enjoy playing online and using the eShop while remaining safe for future CFW usage.</p>
 
 <h2 id="instructions">Instructions</h2>
 
 <ol>
-  <li>Download the latest version of <a href="https://github.com/switchbrew/nx-hbmenu/releases/latest" target="_blank">nx-hbmenu</a></li>
-  <li>Remove your MicroSD Card from your Nintendo Switch and insert your it into your computer</li>
-  <li>Extract the nx-hbmenu <code class="highlighter-rouge">.zip</code> file</li>
-  <li>Place hbmenu.nro onto the root of your MicroSD Card</li>
-  <li>Eject your MicroSD Card from your computer and put it back in your Nintendo Switch</li>
-  <li>Go to the System Settings application</li>
-  <li>Scroll down the menu on the left-hand side and select “Internet”</li>
-  <li>Select “Internet Settings”</li>
-  <li>Select your network</li>
-  <li>Scroll down to “DNS Settings”</li>
-  <li>Set your DNS Settings to “Manual”</li>
-  <li>Set your “Primary DNS” to <code class="highlighter-rouge">104.236.106.125</code></li>
-  <li>Set your “Primary DNS” to <code class="highlighter-rouge">62.210.147.20</code></li>
-  <li>Perform a connection test
-    <ul>
-      <li>If this is successful, a pop-up will tell you that “Registration is required to use this network.”</li>
-    </ul>
-  </li>
-  <li>Click Next</li>
-  <li>When the Homebrew Launcher page loads, click “Install”
-    <ul>
-      <li>If you see “2000-1337” on your screen, the Homebrew Launcher installation has succeeded.</li>
-      <li>If you do not, reboot and perform a connection test again</li>
-    </ul>
-  </li>
-  <li>Reboot the device</li>
-  <li>Go to the System Settings application</li>
-  <li>Scroll down the menu on the left-hand side and select “Internet”</li>
-  <li>Select “Test Connection”
-    <ul>
-      <li>If this is successful, a pop-up will tell you that “Registration is required to use this network.”</li>
-    </ul>
-  </li>
-  <li>Click “Run”</li>
-  <li>Exit when prompted</li>
-  <li>Go to the Home Menu</li>
-  <li>Click the Album icon</li>
+  <li>Open the System Settings application</li>
+  <li>Scroll down the menu on the left-hand side and select “System”</li>
+  <li>Select “System Update”</li>
+  <li>Wait for the update to complete</li>
 </ol>
 
-<h2 id="install-homebrew-launcher-via-eshop">Install Homebrew Launcher via eShop</h2>
-
-<p>You must re-run the “Run” section of the exploit after each reboot through a browser applet. There are more convenient ways to launch it than through a Connection Test, such as through the eShop. You won’t be using it anyway if you’re on 3.0.0, as you’d need to update to use it.</p>
-
-<ol>
-  <li>Create a second account on your device.
-    <ul>
-      <li>Do not connect it to a Nintendo account</li>
-    </ul>
-  </li>
-  <li>Launch the eShop Applications</li>
-  <li>Select the second account you created</li>
-  <li>Select “Sign In and link”</li>
-  <li>The Homebrew Launcher page will load</li>
-  <li>Select “Run”</li>
-</ol>
-
-<h2 id="installing-homebrew-applications">Installing Homebrew Applications</h2>
-
-<ol>
-  <li>Make a new directory on the root of your Switch’s MicroSD Card called <code class="highlighter-rouge">switch/</code></li>
-  <li>Download a homebrew application of your choice from <a href="http://switchbrew.org/index.php?title=Homebrew_Applications" target="_blank">switchbrew</a>, <a href="https://www.reddit.com/r/SwitchHacks/" target="_blank">r/SwitchHacks</a> or <a href="https://gbatemp.net/forums/285/" target="_blank">GBAtemp</a></li>
-  <li>Extract an archive file if it comes with one</li>
-  <li>Find the <code class="highlighter-rouge">.nro</code> file and place it into the <code class="highlighter-rouge">switch/</code> directory on your MicroSD Card</li>
-</ol>
+<center><a href="/guide/blocking-updates"><button class="btn btn--light-outline">Blocking Updates</button></a></center>
 
         
       </section>
