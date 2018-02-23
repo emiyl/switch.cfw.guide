@@ -15,8 +15,14 @@ If you are on 1.0.0, waiting might be beneficial. CFW will be released first for
 
 ## Instructions
 
-1. Insert your **update game** cartridge into the Switch
-2. Run the game
-3. Update to 3.0.0 when prompted
+1. Open System Settings and navigate to "Airplane Mode"
+2. Enable Airplane Mode
+3. Hold down the "Power" Button
+4. Reboot while holding down **Volume +** and **Volume -**
+5. Insert your **update game** cartridge into the Switch
+6. Run the game
+7. Update to 3.0.0 when prompted
+8. Open System Settings and navigate to "Airplane Mode"
+9. Disable Airplane Mode
 
 <center><a href="/guide/homebrew-launcher"><button class="btn btn--light-outline">Homebrew Launcher</button></a></center>

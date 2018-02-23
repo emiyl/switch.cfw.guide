@@ -5,7 +5,7 @@ sidebar:
   nav: "side"
 ---
 
-This will stop your Switch from downloading any future updates. Updating your Switch will make you lose your homebrew access.
+This will stop your Switch from downloading any future updates. Updates could patch future homebrew exploits, leaving you left out on hacks.
 
 1. Go to the System Settings application
 2. Scroll down the menu on the left-hand side and select “Internet”
@@ -14,6 +14,7 @@ This will stop your Switch from downloading any future updates. Updating your Sw
 5. Scroll down to “DNS Settings”
 6. Set your DNS Settings to “Manual”
 7. Change your Primary DNS to `173.255.238.217`
+7. Change your Secondary DNS to `173.255.238.217`
 
 ## Deleting Downloaded Updates
 
