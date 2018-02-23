@@ -14,7 +14,11 @@ This will stop your Switch from downloading any future updates. Updates could pa
 5. Scroll down to “DNS Settings”
 6. Set your DNS Settings to “Manual”
 7. Change your Primary DNS to `173.255.238.217`
+<<<<<<< HEAD
 7. Change your Secondary DNS to `173.255.238.217`
+=======
+8. Change your Secondary DNS to `173.255.238.217`
+>>>>>>> 6a79a4d486aff94463c358b2ba98b287d3772da9
 
 ## Deleting Downloaded Updates
 
