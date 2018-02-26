@@ -9,6 +9,7 @@ This will stop your Switch from downloading any future updates. Updates could pa
 
 Please note that these DNS settings must be set on every network you connect to.
 
+1. Make sure you have connected to the Nintendo Online Services at least once before proceeding
 1. Go to the System Settings application
 2. Scroll down the menu on the left-hand side and select “Internet”
 3. Select “Internet Settings”
