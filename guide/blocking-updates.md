@@ -10,15 +10,14 @@ This will stop your Switch from downloading any future updates. Updates could pa
 Please note that these DNS settings must be set on every network you connect to.
 
 1. Make sure you have connected to the Nintendo Online Services at least once before proceeding
-1. Go to the System Settings application
-2. Scroll down the menu on the left-hand side and select “Internet”
-3. Select “Internet Settings”
-4. Select your network
-5. Scroll down to “DNS Settings”
-6. Set your DNS Settings to “Manual”
-7. Change your Primary DNS to `173.255.238.217`
-7. Change your Secondary DNS to `173.255.238.217`
-8. Change your Secondary DNS to `173.255.238.217`
+2. Go to the System Settings application
+3. Scroll down the menu on the left-hand side and select “Internet”
+4. Select “Internet Settings”
+5. Select your network
+6. Scroll down to “DNS Settings”
+7. Set your DNS Settings to “Manual”
+8. Change your Primary DNS to `173.255.238.217`
+9. Change your Secondary DNS to `173.255.238.217`
 
 ## Deleting Downloaded Updates
 
