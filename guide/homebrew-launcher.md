@@ -27,7 +27,7 @@ Update blocking will not be necessary after this step, as the Homebrew Launcher 
 10. Scroll down to "DNS Settings"
 11. Set your DNS Settings to "Manual"
 12. Set your "Primary DNS" to `104.236.106.125`
-12. Set your "Primary DNS" to `62.210.147.20`
+12. Set your "Secondary DNS" to `62.210.147.20`
 13. Perform a connection test
   - If this is successful, a pop-up will tell you that "Registration is required to use this network."
 14. Click Next
