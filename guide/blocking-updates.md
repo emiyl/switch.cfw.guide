@@ -24,3 +24,4 @@ Please note that these DNS settings must be set on every network you connect to.
 1. Hold down the "Power" Button
 2. Select "Reboot"
 3. If that doesn't work, reboot again but hold down **Volume +** and **Volume -** while rebooting
+	- Make sure to not select any options in Recovery Mode, only reboot
