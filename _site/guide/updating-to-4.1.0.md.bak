@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_UK">
 <meta property="og:site_name" content="Switch Guide">
 <meta property="og:title" content="Updating to 4.1.0">
-<meta property="og:url" content="http://localhost:4000/guide/updating-to-4.1.0/">
+<meta property="og:url" content="http://localhost:4000/guide/updating-to-4.1.0.md.bak">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/guide/updating-to-4.1.0/">
+<link rel="canonical" href="http://localhost:4000/guide/updating-to-4.1.0.md.bak">
 
 
 
@@ -110,9 +110,7 @@
 <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
 <meta name="msapplication-TileColor" content="#00aba9">
 <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
-<meta name="theme-color" content="#1a1d24">
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
+<meta name="theme-color" content="#ffffff">
 <!-- end custom head snippets -->
 
   </head>
@@ -246,16 +244,14 @@
         
 		<p class="notice">If you like the guide, please consider donating via <a href="https://www.paypal.me/emiyl" target="_blank">PayPal</a>.</p>
     <p class="notice">If you have any issues or problems, please ask on our <a href="/help/discord/">Discord Server</a>.</p>
-        <p>If you’re on 3.0.1 through to 4.0.1, you’ll get CFW the same time as anyone on 4.1.0, so you can go now and update to 4.1.0. You’ll be able to enjoy playing online and using the eShop while remaining safe for future CFW usage.</p>
+        If you're on 3.0.1 through to 4.0.1, you'll get CFW the same time as anyone on 4.1.0, so you can go now and update to 4.1.0. You'll be able to enjoy playing online and using the eShop while remaining safe for future CFW usage.
 
-<h2 id="instructions">Instructions</h2>
+## Instructions
 
-<ol>
-  <li>Open the System Settings application</li>
-  <li>Scroll down the menu on the left-hand side and select “System”</li>
-  <li>Select “System Update”</li>
-  <li>Wait for the update to complete</li>
-</ol>
+1. Open the System Settings application
+2. Scroll down the menu on the left-hand side and select “System”
+3. Select "System Update"
+4. Wait for the update to complete
 
 <center><a href="/guide/blocking-updates"><button class="btn btn--light-outline">Blocking Updates</button></a></center>
 

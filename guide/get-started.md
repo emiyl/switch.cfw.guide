@@ -38,7 +38,7 @@ Firstly, you’ll need to find out your Nintendo Switch’s firmware version. Yo
 			</tr>
 			<tr>
 				<td>3.0.1</td>
-				<td>5.0.0</td>
+				<td>5.0.1</td>
 				<td><a href="/guide/blocking-updates">Blocking Updates</a></td>
 			</tr>
 		</tbody>
