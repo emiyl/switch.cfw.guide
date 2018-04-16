@@ -21,4 +21,5 @@ You must have an **update game**. This is a game used to update to a specific fi
 8. Open System Settings and navigate to "Airplane Mode"
 9. Disable Airplane Mode
 
-<center><a href="/guide/homebrew-launcher"><button class="btn btn--light-outline">Homebrew Launcher</button></a></center>
+[Homebrew Launcher](/guide/homebrew-launcher){: .btn .btn--light-outline}
+{: style="text-align: center;"}
