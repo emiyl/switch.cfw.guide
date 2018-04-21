@@ -5,9 +5,10 @@ sidebar:
   nav: "side"
 ---
 
-This will stop your Switch from downloading any future updates. Updates could patch future homebrew exploits, leaving you left out on hacks.
+This will stop your Switch from downloading any future updates. Updates could patch future exploits, leaving you without access to homebrew in the future.
 
-Please note that these DNS settings must be set on every network you connect to.
+These DNS settings must be set on every network you connect to
+{: .notice--info}
 
 1. Make sure you have connected to the Nintendo Online Services at least once before proceeding
 2. Go to the System Settings application
