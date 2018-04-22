@@ -5,7 +5,7 @@ sidebar:
   nav: "side"
 ---
 
-These DNS settings must be set on every network you connect to
+These DNS settings must be set on every network you connect to.
 {: .notice--info}
 
 This will stop your Switch from downloading any future updates. Updates could patch future exploits, leaving you without access to homebrew in the future.

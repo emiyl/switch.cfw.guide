@@ -5,6 +5,9 @@ sidebar:
   nav: "side"
 ---
 
+The DNS settings must be set on every network you connect to.
+{: .notice--info}
+
 The Homebrew Launcher allows you to run unsigned, user-made software on your Nintendo Switch. It currently only runs on version 3.0.0.
 
 Make sure to only download homebrew from trusted sources. Running untrusted homebrew could potentially damage your Switch and void your warranty.
