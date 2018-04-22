@@ -7,7 +7,7 @@ sidebar:
 
 The first Switch Homebrew Launcher has been released. It only runs on 3.0.0.
 
-You must have an **update game**. This is a game used to update to a specific firmware version. We need to update to 3.0.0, so we recommend a cartridge of [Pokken Tournament DX](https://www.amazon.com/s/ref=nb_sb_noss?field-keywords=Pokken+Tournament+DX){:target=_blank}. Running this game should update you to 3.0.0, however be careful as _*some very recent copies come with 3.1.0**. [Here's how to tell the difference](/more/pokken-tournament-dx).
+You must have an **update game**. This is a game used to update to a specific firmware version. We need to update to 3.0.0, so we recommend a cartridge of [Pokken Tournament DX](https://www.amazon.com/s/ref=nb_sb_noss?field-keywords=Pokken+Tournament+DX){:target=_blank}. Running this game should update you to 3.0.0, however be careful as **some very recent copies come with 3.1.0**. [Here's how to tell the difference](/more/pokken-tournament-dx).
 
 ## Instructions
 
