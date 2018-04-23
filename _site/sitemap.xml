@@ -19,6 +19,9 @@
 <loc>http://localhost:4000/guide/homebrew-launcher/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/guide/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
