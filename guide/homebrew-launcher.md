@@ -16,9 +16,12 @@ If you'd like to read more on the Homebrew Launcher, go to the offical website [
 
 Update blocking will not be necessary after this step, as the Homebrew Launcher DNS automatically blocks updates for you.
 
+## Downloads
+
+- The latest version of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
+
 ## Instructions
 
-1. Download the latest version of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest){:target="_blank"}
 2. Remove your MicroSD Card from your Nintendo Switch and insert your it into your computer
 3. Extract the nx-hbmenu `.zip` file
 4. Place hbmenu.nro onto the root of your MicroSD Card
@@ -52,7 +55,7 @@ Update blocking will not be necessary after this step, as the Homebrew Launcher 
 You must re-run the "Run" section of the exploit after each reboot through a browser applet. There are more convenient ways to launch it than through a Connection Test, such as through the eShop. You won't be using it anyway if you're on 3.0.0, as you'd need to update to use it.
 
 1. Create a second account on your device.
-  - Do not connect it to a Nintendo account
+  - Do not connect to a Nintendo account
 2. Launch the eShop Applications
 3. Select the second account you created
 4. Select "Sign In and link"
