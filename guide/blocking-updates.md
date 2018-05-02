@@ -5,6 +5,9 @@ sidebar:
   nav: "side"
 ---
 
+More experienced users on 2.3.0 and below may launch the Homebrew Launcher via using PegaSwitch [here](/more/homebrew-launcher-(pegaswitch)).
+{: .notice--info}
+
 These DNS settings must be set on every network you connect to.
 {: .notice--info}
 

@@ -15,7 +15,7 @@ After 27th April 2018, the `173.255.238.217` and `45.79.103.52` update blocking 
 Homebrew is custom, user-made software, which haven't been authorised by Nintendo. This can include save editing tools, games, emulators, and more. The Homebrew Launcher is a launcher you can install to your Switch to run these homebrew applications.
 
 ## What firmwares can I install homebrew on?
-Homebrew can be installed on Nintendo Switch system version 3.0.0. This guide will help you through installing homebrew on your Nintendo Switch console.
+Homebrew can be installed on Nintendo Switch system version 3.0.0 and below. This guide will help you through installing homebrew on your Nintendo Switch console.
 
 ## Is this safe?
 It _should_ be. Make sure to always run homebrew from trustworthy sources. I will not be held responsible for any damages done to your device.

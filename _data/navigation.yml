@@ -1,4 +1,6 @@
 main:
+  - title: "Credits"
+    url: "/credits"
   - title: "Donate"
     url: /donate
   - title: "Home"
@@ -15,3 +17,15 @@ side:
         url: /guide/homebrew-launcher/
       - title: "Blocking Updates"
         url: /guide/blocking-updates/
+
+  - title: More
+    children:
+      - title: "Homebrew Launcher (PegaSwitch)"
+        url: /more/homebrew-launcher-(pegaswitch)/
+      - title: "Running Linux"
+        url: https://gbatemp.net/threads/501918/
+
+  - title: Help
+    children:
+      - title: "Discord"
+        url: /help/discord/
