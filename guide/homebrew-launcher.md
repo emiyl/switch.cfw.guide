@@ -1,18 +1,21 @@
 ---
 title: Homebrew Launcher
 layout: single
-sidebar:
-  nav: "side"
 ---
 
 The DNS settings must be set on every network you connect to.
 {: .notice--info}
 
-The Homebrew Launcher allows you to run unsigned, user-made software on your Nintendo Switch. It currently only runs on version 3.0.0.
+After 27th April 2018, the `173.255.238.217` and `45.79.103.52` update blocking DNS servers will not work. Please remove these and replace these with the new ones detailed in the guide to continue blocking updates.
+{: .notice--danger}
+
+This guide will allow you to install the Homebrew Launcher on version 3.0.0, using the ReSwitched DNS. This will have to be reinstalled upon each reboot, but will remain active until then.
+
+The Homebrew Launcher allows you to run unsigned, user-made software on your Nintendo Switch on versions 3.0.0 and below. If you would like to run homebrew on versions 2.0.0 to 2.3.0, follow [this guide](/guide/homebrew-launcher-(pegaswitch)).
 
 Make sure to only download homebrew from trusted sources. Running untrusted homebrew could potentially damage your Switch and void your warranty.
 
-If you'd like to read more on the Homebrew Launcher, go to the offical website [ here](https://switchbrew.github.io/nx-hbl/){:target="_blank"}.
+If you'd like to read more on the Homebrew Launcher, go to the offical website [here](https://switchbrew.github.io/nx-hbl/){:target="_blank"}.
 
 Update blocking will not be necessary after this step, as the Homebrew Launcher DNS automatically blocks updates for you.
 
@@ -26,7 +29,7 @@ Update blocking will not be necessary after this step, as the Homebrew Launcher 
 3. Extract the nx-hbmenu `.zip` file
 4. Place hbmenu.nro onto the root of your MicroSD Card
 5. Eject your MicroSD Card from your computer and put it back in your Nintendo Switch
-6. Go to the System Settings application
+6. Launch the System Settings application
 7. Scroll down the menu on the left-hand side and select "Internet"
 8. Select "Internet Settings"
 9. Select your network

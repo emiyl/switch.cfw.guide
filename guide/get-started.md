@@ -1,8 +1,6 @@
 ---
 title: Get Started
 layout: single
-sidebar:
-  nav: "side"
 ---
 
 After 27th April 2018, the `173.255.238.217` and `45.79.103.52` update blocking DNS servers will not work. Please remove these and replace these with the new ones detailed in the guide to continue blocking updates.
@@ -29,12 +27,12 @@ Scroll down the menu on the left-hand side, and select "System". Your system ver
 			<tr>
 				<td>1.0.0</td>
 				<td>1.0.0</td>
-				<td><a href="/guide/blocking-updates">Blocking Updates</a> (Waiting for CFW)</td>
+				<td><a href="/guide/blocking-updates">Blocking Updates</a></td>
 			</tr>
 			<tr>
 				<td>2.0.0</td>
 				<td>2.3.0</td>
-				<td><a href="/guide/updating-to-3.0.0">Updating to 3.0.0</a></td>
+				<td><a href="/guide/homebrew-launcher-(pegaswitch)">Homebrew Launcher (PegaSwitch)</a></td>
 			</tr>
 			<tr>
 				<td>3.0.0</td>

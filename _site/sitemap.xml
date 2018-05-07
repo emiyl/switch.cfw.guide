@@ -13,7 +13,7 @@
 <loc>http://localhost:4000/credits/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/guide/help/discord/</loc>
+<loc>http://localhost:4000/help/discord/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/donate/</loc>
@@ -22,7 +22,7 @@
 <loc>http://localhost:4000/guide/get-started/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/more/homebrew-launcher-(pegaswitch)/</loc>
+<loc>http://localhost:4000/guide/homebrew-launcher-(pegaswitch)/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/guide/homebrew-launcher/</loc>
@@ -35,9 +35,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/more/pokken-tournament-dx/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/guide/updating-to-3.0.0/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/blocking-updates.html</loc>

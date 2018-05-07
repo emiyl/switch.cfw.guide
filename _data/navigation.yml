@@ -11,19 +11,12 @@ side:
     children:
       - title: "Get Started"
         url: /guide/get-started/
-      - title: "Updating to 3.0.0"
-        url: /guide/updating-to-3.0.0/
       - title: "Homebrew Launcher"
         url: /guide/homebrew-launcher/
+      - title: "Homebrew Launcher (PegaSwitch)"
+        url: /guide/homebrew-launcher-(pegaswitch)/
       - title: "Blocking Updates"
         url: /guide/blocking-updates/
-
-  - title: More
-    children:
-      - title: "Homebrew Launcher (PegaSwitch)"
-        url: /more/homebrew-launcher-(pegaswitch)/
-      - title: "Running Linux"
-        url: https://gbatemp.net/threads/501918/
 
   - title: Help
     children:

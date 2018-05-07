@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_UK">
 <meta property="og:site_name" content="Switch Guide">
 <meta property="og:title" content="Homebrew Launcher (PegaSwitch)">
-<meta property="og:url" content="http://localhost:4000/more/homebrew-launcher-(pegaswitch)/">
+<meta property="og:url" content="http://localhost:4000/guide/homebrew-launcher-(pegaswitch)/">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/more/homebrew-launcher-(pegaswitch)/">
+<link rel="canonical" href="http://localhost:4000/guide/homebrew-launcher-(pegaswitch)/">
 
 
 
@@ -162,121 +162,6 @@
 
 <div id="main" role="main">
   
-  <div class="sidebar sticky">
-  
-  
-    
-      
-      
-      
-    
-    
-      
-
-<nav class="nav__list">
-  
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">Toggle Menu</label>
-  <ul class="nav__items">
-    
-      <li>
-        
-          <span class="nav__sub-title">Guide</span>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/guide/get-started/" class="">Get Started</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/guide/updating-to-3.0.0/" class="">Updating to 3.0.0</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/guide/homebrew-launcher/" class="">Homebrew Launcher</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/guide/blocking-updates/" class="">Blocking Updates</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">More</span>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/more/homebrew-launcher-(pegaswitch)/" class="active">Homebrew Launcher (PegaSwitch)</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://gbatemp.net/threads/501918/" class="">Running Linux</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">Help</span>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/help/discord/" class="">Discord</a></li>
-          
-        </ul>
-        
-      </li>
-    
-  </ul>
-</nav>
-    
-  
-  </div>
-
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Homebrew Launcher (PegaSwitch)">
@@ -297,28 +182,93 @@
         
 		<p class="notice">If you like the guide, please consider donating via <a href="/donate">PayPal</a>.</p>
     <p class="notice">If you have any issues or problems, please ask on our <a href="/help/discord/">Discord Server</a>.</p>
-        <p class="notice--info">This guide is aimed towards the experienced in console hacking.</p>
+        <p class="notice--info">While this guide <em>should</em> work, it has not been tested</p>
 
-<p class="notice--danger">If you have little experience with console hacking, I recommend <a href="/guide/blocking-updates">blocking updates</a> and waiting for a different method to become available.</p>
+<p class="notice--danger">After 27th April 2018, the <code class="highlighter-rouge">173.255.238.217</code> and <code class="highlighter-rouge">45.79.103.52</code> update blocking DNS servers will not work. Please remove these and replace these with the new ones detailed in the guide to continue blocking updates.</p>
 
-<p>This guide will allow you to install the Homebrew Launcher on 2.3.0 and below, using PegaSwitch.</p>
+<p>This guide will allow you to install the Homebrew Launcher on 2.0.0 to 2.3.0, using PegaSwitch. This will have to be reinstalled upon each reboot, but will remain active until then.</p>
+
+<p>The Homebrew Launcher allows you to run unsigned, user-made software on your Nintendo Switch on versions 3.0.0 and below. If you would like to run homebrew on version 3.0.0, follow <a href="/guide/homebrew-launcher">this guide</a>.</p>
+
+<p>Make sure to only download homebrew from trusted sources. Running untrusted homebrew could potentially damage your Switch and void your warranty.</p>
+
+<p>If you’d like to read more on the Homebrew Launcher, go to the offical website <a href="https://switchbrew.github.io/nx-hbl/" target="_blank">here</a>.</p>
 
 <h2 id="downloads">Downloads</h2>
 <ul>
-  <li><a href="https://pegaswitch.com/" target="_blank">PegaSwitch</a></li>
-  <li><a href="/assets/files/loader.pfs0">loader.pfs0</a></li>
-  <li><a href="https://github.com/switchbrew/nx-hbmenu/releases/latest/" target="_blank">nx-hbmenu</a></li>
+  <li>The latest version of <a href="https://github.com/reswitched/pegaswitch/archive/master.zip">PegaSwitch</a></li>
+  <li>The latest version of <a href="https://nodejs.org/en/" target="_blank">node.js</a></li>
+  <li>The latest release of <a href="https://github.com/switchbrew/nx-hbmenu/releases/latest/" target="_blank">nx-hbmenu</a></li>
+  <li><a href="/assets/files/loader.nsp">loader.nsp</a></li>
 </ul>
 
-<h2 id="instructions">Instructions</h2>
+<h2 id="preparations">Preparations</h2>
 <ol>
   <li>Insert your microSD card into your computer</li>
-  <li>Copy <code class="highlighter-rouge">loader.pfs0</code> to the root of your microSD card</li>
+  <li>Copy <code class="highlighter-rouge">loader.nsp</code> to the root of your microSD card</li>
   <li>Extract the contents of the nx-hbmenu <code class="highlighter-rouge">.zip</code> file to the root of your microSD card</li>
-  <li>Launch PegaSwitch</li>
-  <li>Save this <a href="/assets/files/hbmenu.js" target="_blank">JavaScript snippet</a> as <code class="highlighter-rouge">hbmenu.js</code></li>
-  <li>Run <code class="highlighter-rouge">evalfile hbmenu.js</code> in PegaSwitch</li>
-  <li>Close your browser and open your gallery app</li>
+  <li>Create a folder called <code class="highlighter-rouge">switch</code> on the root of your microSD card if it doesn’t already exist</li>
+</ol>
+
+<h2 id="configuring-pegaswitch">Configuring PegaSwitch</h2>
+<ol>
+  <li>Extract the PegaSwitch <code class="highlighter-rouge">.zip</code> file to a folder on your Desktop</li>
+  <li>Copy <code class="highlighter-rouge">hbmenu.js</code> to the <code class="highlighter-rouge">usefulscripts</code> folder in your PegaSwitch folder</li>
+  <li>Install node.js if you haven’t already</li>
+  <li>Navigate to the PegaSwitch folder and open your terminal/cmd</li>
+  <li>Run <code class="highlighter-rouge">npm install</code> to install PegaSwitch</li>
+  <li>Run <code class="highlighter-rouge">node start.js</code> to start PegaSwitch
+    <ul>
+      <li>You may need to use <code class="highlighter-rouge">sudo</code> on Linux/macOS</li>
+    </ul>
+  </li>
+  <li>Write down the IP address displayed on-screen
+    <ul>
+      <li>This is usually in the format of <code class="highlighter-rouge">192.168.1.XXX</code></li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="configuring-dns">Configuring DNS</h2>
+<ol>
+  <li>Launch the System Settings application</li>
+  <li>Scroll down the menu on the left-hand side and select “Internet”</li>
+  <li>Select “Internet Settings”</li>
+  <li>Select your network</li>
+  <li>Scroll down to “DNS Settings”</li>
+  <li>Set your DNS Settings to “Manual”</li>
+  <li>Set your “Primary DNS” and “Secondary DNS” to the IP Address you got earlier from PegaSwitch</li>
+  <li>Save your network settings</li>
+</ol>
+
+<h2 id="installation">Installation</h2>
+<ol>
+  <li>If it was successful, you will see the message, “Registration is required to use this network”</li>
+  <li>Select “Next”
+    <ul>
+      <li>The PegaSwitch website should load</li>
+      <li>PegaSwitch on your computer should show that your device is connected</li>
+    </ul>
+  </li>
+  <li>Run <code class="highlighter-rouge">evalfile usefulscripts/installFakeNews.js</code> in your terminal/cmd</li>
+  <li>Reboot your device
+    <ul>
+      <li>You should see a PegaSwitch news entry</li>
+    </ul>
+  </li>
+  <li>Exit PegaSwitch by pressing <code class="highlighter-rouge">Ctrl+C</code> twice</li>
+  <li>Run the command <code class="highlighter-rouge">node start.js --webapplet</code></li>
+  <li>Select the PegaSwitch news entry on your device</li>
+  <li>Tap to open the “Video”</li>
+</ol>
+
+<h2 id="installing-homebrew-applications">Installing Homebrew Applications</h2>
+
+<ol>
+  <li>Make a new directory on the root of your Switch’s MicroSD Card called <code class="highlighter-rouge">switch/</code></li>
+  <li>Download a homebrew application of your choice from <a href="http://switchbrew.org/index.php?title=Homebrew_Applications" target="_blank">switchbrew</a>, <a href="https://www.reddit.com/r/SwitchHacks/" target="_blank">r/SwitchHacks</a> or <a href="https://gbatemp.net/forums/285/" target="_blank">GBAtemp</a></li>
+  <li>Extract an archive file if it comes with one</li>
+  <li>Find the <code class="highlighter-rouge">.nro</code> file and place it into the <code class="highlighter-rouge">switch/</code> directory on your MicroSD Card</li>
 </ol>
 
         
