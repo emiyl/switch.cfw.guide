@@ -21,6 +21,7 @@ If you'd like to read more on the Homebrew Launcher, go to the offical website [
 - The latest version of [PegaSwitch](https://github.com/reswitched/pegaswitch/archive/master.zip)
 - The latest version of [node.js](https://nodejs.org/en/){:target="_blank"}
 - The latest release of [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu/releases/latest/){:target="_blank"}
+- [hbmenu.js](/assets/files/hbmenu.js)
 - [loader.nsp](/assets/files/loader.nsp)
 
 ## Preparations
